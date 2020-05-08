@@ -8,7 +8,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-   --second-background:: #F5F4FA;
+  --second-background:: #F5F4FA;
   --footer-background: #2F303A;
 }
 body {
@@ -42,4 +42,48 @@ body {
 .auth-nav a:hover,
 .auth-nav a:focus {
   color: var(--accent-color);
+}
+h1 {
+  color: var(--primary-white-color);
+  background-color:var(--primary-text-color);
+  text-transform: uppercase; 
+}
+.button{
+  color: var(--primary-white-color);
+  background-color:var(--accent-color);
+}
+.section
+.section-title {
+  color: var(--title-text-color);
+}
+.features h3{
+  color: var(--title-text-color);
+  text-transform: uppercase;
+}
+.scope h3{
+  color: var(--primary-white-color);
+  background-color:var(--primary-text-color);
+  text-transform: uppercase;
+}
+.team h3{
+ color: var(--title-text-color); 
+}
+/* Футер */
+.logo-footer{
+  color: var(--primary-white-color);
+  background-color:var(--primary-text-color);
+}
+.logo-footer:hover {
+  color: var(--accent-color);
+}
+footer{
+  color: var(--primary-white-color);
+  background-color:var(--primary-text-color);
+}
+.adress-transparency, .footer-transparency
+{
+  color: rgba(255, 255, 255, 0.6);
+}
+footer  b{
+ text-transform: uppercase; 
 }
