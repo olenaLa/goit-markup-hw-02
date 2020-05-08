@@ -87,3 +87,7 @@ footer{
 footer  b{
  text-transform: uppercase; 
 }
+.button{
+   color: var(--primary-white-color);
+  background-color:var(--accent-color);
+}
