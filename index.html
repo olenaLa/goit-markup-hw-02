@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="./index.html"
+        <a href="./index.html" class="logo"
           ><span class="logo-accent">Web</span
-          ><span class="logo">Studio</span></a
+          ><span class="logo-regular">Studio</span></a
         >
         <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./index.html" class="link current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
@@ -37,7 +41,7 @@
     </header>
     <main>
       <!--Верхняя секция-->
-      <section>
+      <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
         <a href="" class="button">Заказать услугу</a>
       </section>
@@ -95,6 +99,7 @@
           <li>
             <a href="">
               <img
+                class="image-link"
                 src="./images/section-works/desktop.jpg"
                 alt="Ноутбук"
                 width="380"
@@ -146,6 +151,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/instagram.svg"
                     alt="Instagram"
                   />
@@ -154,6 +160,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/twitter.svg"
                     alt="Twitter"
                   />
@@ -162,6 +169,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/facebook.svg"
                     alt="Facebook"
                   />
@@ -170,6 +178,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/linkedin.svg"
                     alt="LinkedIn"
                   />
@@ -192,6 +201,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/instagram.svg"
                     alt="Instagram"
                   />
@@ -200,6 +210,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/twitter.svg"
                     alt="Twitter"
                   />
@@ -208,6 +219,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/facebook.svg"
                     alt="Facebook"
                   />
@@ -216,6 +228,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/linkedin.svg"
                     alt="LinkedIn"
                   />
@@ -226,6 +239,7 @@
           <li>
             <a href="">
               <img
+                class="team-social-link"
                 src="./images/section-team/photo-jakis.jpg"
                 alt="Интерфейс"
                 width="278"
@@ -238,6 +252,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/instagram.svg"
                     alt="Instagram"
                   />
@@ -246,6 +261,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/twitter.svg"
                     alt="Twitter"
                   />
@@ -254,6 +270,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/facebook.svg"
                     alt="Facebook"
                   />
@@ -262,6 +279,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/linkedin.svg"
                     alt="LinkedIn"
                   />
@@ -284,6 +302,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/instagram.svg"
                     alt="Instagram"
                   />
@@ -292,6 +311,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/twitter.svg"
                     alt="Twitter"
                   />
@@ -300,6 +320,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/facebook.svg"
                     alt="Facebook"
                   />
@@ -308,6 +329,7 @@
               <li>
                 <a href=""
                   ><img
+                    class="team-social-link"
                     src="./images/section-team/social-links/linkedin.svg"
                     alt="LinkedIn"
                   />
@@ -357,9 +379,9 @@
     <!--Футер-->
     <footer class="footer">
       <div>
-        <a href="./index.html"
+        <a href="./index.html" class="logo"
           ><span class="logo-accent">Web</span
-          ><span class="logo-footer">Studio</span></a
+          ><span class="logo-regular">Studio</span></a
         >
         <address>
           г.Киев, пр-т Леси Украинки, 26 <br />
@@ -371,23 +393,23 @@
         <b>Присоединяйтесь</b>
         <ul>
           <li>
-            <a href="" aria-label="Instagram">Instagram</a>
+            <a href="" aria-label="Instagram" class="social-link">Instagram</a>
           </li>
           <li>
-            <a href="" aria-label="Twitter">Twitter</a>
+            <a href="" aria-label="Twitter" class="social-link">Twitter</a>
           </li>
           <li>
-            <a href="" aria-label="Facebook">Facebook</a>
+            <a href="" aria-label="Facebook" class="social-link">Facebook</a>
           </li>
           <li>
-            <a href="" aria-label="LinkedIn">LinkedIn</a>
+            <a href="" aria-label="LinkedIn" class="social-link">LinkedIn</a>
           </li>
         </ul>
       </div>
       <div>
-        <b>Подпишитесь на рассылку</b>
+        <b>Подписаться на рассылку</b>
         <input type="email" />
-        <a href="" class="button">Подписаться</a>
+        <a href="" class="button footer">Подписаться</a>
       </div>
       <p class="footer-transparency">2020 | Developed by GoIT Students</p>
     </footer>
